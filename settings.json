@@ -1,0 +1,270 @@
+{
+  // defaults
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.renderControlCharacters": true,
+  "explorer.compactFolders": false,
+  "editor.linkedEditing": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "GitHub Dark Default",
+  //"prettier.configPath": "C:\\Development\\.prettierrc",
+  "editor.unicodeHighlight.includeComments": true,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.guides.indentation": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.detectIndentation": true,
+  "editor.insertSpaces": true,
+  "editor.semanticHighlighting.enabled": false,
+
+  // FONTES
+  "terminal.integrated.fontFamily": " 'JetBrainsMono Nerd Font', 'Cascadia Code', monospace",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.lineHeight": 1.3,
+  "terminal.integrated.fontWeight": "400",
+  "editor.mouseWheelZoom": true,
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code',  'Cascadia Code',monospace",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 1.3,
+  "editor.letterSpacing": 0,
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "500",
+  "editor.cursorBlinking": "smooth",
+  "editor.smoothScrolling": true,
+
+  // rulers
+  "editor.rulers": [
+    {
+      "column": 80,
+      "color": "#424142"
+    },
+    // 100, // <- a ruler in the default color or as customized at column 0
+    {
+      "column": 120,
+      "color": "#ff9900"
+    }
+  ],
+
+  // bracket colorization
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#D3D3D3",
+    "editorBracketHighlight.foreground2": "#FFF8DC",
+    "editorBracketHighlight.foreground3": "#87CEFA",
+    "editorBracketHighlight.foreground4": "#DA76D6",
+    "editorBracketHighlight.foreground5": "#FA8072",
+    "editorBracketHighlight.foreground6": "#FFD700",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+  },
+
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.associations": {
+    "*.py": "python"
+  },
+  "python.languageServer": "Pylance",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[php]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+
+  "[python]": {
+    "editor.formatOnType": true
+  },
+
+  "github.copilot.enable": {
+    "*": true
+  },
+
+  "console-ninja.featureSet": "Community",
+  "workbench.editor.empty.hint": "hidden",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "terminal.integrated.env.osx": {},
+  "prettier.bracketSameLine": true,
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "terminal.integrated.env.windows": {},
+  "explorer.autoReveal": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "window.newWindowProfile": "Engibots - Angular + Tailwind",
+
+  "vim.leader": "<space>",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.highlightedyank.enable": true,
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "s", "a"],
+      "commands": ["editor.action.selectAll"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "q"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["<leader>", "s", "v"],
+      "commands": ["workbench.action.splitEditor"]
+    },
+    {
+      "before": ["<leader>", "s", "h"],
+      "commands": ["workbench.action.splitEditorDown"]
+    },
+    {
+      "before": ["<leader>", "t", "o"],
+      "commands": [":tabnew"]
+    },
+    {
+      "before": ["<leader>", "t", "x"],
+      "commands": [":tabclose"]
+    },
+    {
+      "before": ["<S-h>"],
+      "commands": [":tabp"]
+    },
+    {
+      "before": ["<S-l>"],
+      "commands": [":tabnext"]
+    },
+    {
+      "before": ["<leader>", "f", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "f", "b"],
+      "commands": ["workbench.action.showAllEditors"]
+    },
+    {
+      "before": ["<leader>", "f", "s"],
+      "commands": ["workbench.action.findInFiles"]
+    },
+    {
+      "before": ["<leader>", "r", "n"],
+      "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["<leader>", "a", "f"],
+      "commands": ["editor.action.autoFix"]
+    },
+    {
+      "before": ["<leader>", "r", "a"],
+      "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["<leader>", "f", "m"],
+      "commands": ["editor.action.format"]
+    },
+    {
+      "before": ["<leader>", "c", "a"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["<s-k>"],
+      "commands": ["editor.action.showHover"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["<S-j>"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["<S-k>"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    }
+  ],
+  "git.openRepositoryInParentFolders": "never",
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#61dafb"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Svelte Orange",
+      "value": "#ff3d00"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    },
+    {
+      "name": ".NET Purple",
+      "value": "#5027d5"
+    }
+  ]
+}
